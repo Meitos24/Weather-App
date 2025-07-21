@@ -1,0 +1,27 @@
+# Node.js (Next.js)
+node_modules/
+.next/
+out/
+
+# Python (FastAPI)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+.env
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Vercel
+.vercel/
+
+# Otros archivos de sistema o temporales
+*.sqlite3
+*.db
