@@ -28,7 +28,9 @@ export function useClima() {
     }
 
     const sendData = async e => {
-        if (e.key === 'Enter') {
+        if (!searchCity) {
+            alert('Por favor, ingrese una ciudad');
+        } else if (e.key === 'Enter') {
             try {
                 const response = await axios.get('http://127.0.0.1:8000/weather', {
                     params: { location: searchCity }
@@ -42,13 +44,9 @@ export function useClima() {
                 setViento(response.data.days[0].windspeed);
                 setVisibilidad(response.data.days[0].visibility);
                 setLocalizacionExacta(response.data.resolvedAddress);
-                console.log('Temperatura', tempCelsius);
-                console.log('Info obtenida', response)
-                console.log('Ciudad enviada al back: ', searchCity);
-                console.log('El tipo de la temperatura es: ', typeof (temperatura));
-                // setCurrentCondition(condition);
             } catch (error) {
                 console.log('Error al enviar la solicitud', error);
+                alert('No se encontró esa ciudad');
             }
         }
     };
