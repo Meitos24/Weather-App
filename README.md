@@ -22,7 +22,8 @@ Este proyecto es una aplicación web del clima construida con **Next.js** para e
 ### Backend (FastAPI)
 - FastAPI (para endpoints REST)
 - CORS Middleware
-- Pydantic (validación de datos)
+- Pydantic (validación ![preview png](https://github.com/user-attachments/assets/4d3f62c8-2faa-407a-be24-3969688f3840)
+de datos)
 - Requests / HTTPx (para consumir API externa de clima)
 
 ---
