@@ -43,10 +43,19 @@ cd frontend
 npm install
 npm run dev
 ```
+Accede en: http://localhost:3000
 
-### 2. Correr el servidor Fastapi (Uvicorn)
+### 2. Ejecutar el servidor FastAPI (Backend)
 
 ```bash
-cd backend
 cd backend; cd myenv; ./Scripts/activate; cd ..; uvicorn main:app --reload
 ```
+El backend estará disponible en: http://127.0.0.1:8000
+
+## 📤 Despliegue
+- El frontend puede desplegarse fácilmente en Vercel
+- El backend puede usarse en servicios como Render, Railway o Deta
+
+## ✍️ Autor
+- Guillermo Campos Salas
+- Github: @Meitos24
