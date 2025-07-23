@@ -32,5 +32,20 @@ Este proyecto es una aplicación web del clima construida con **Next.js** para e
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/weather-app.git
+https://github.com/Meitos24/Weather-App.git
 cd weather-app
+```
+
+### 2. Correr el servidor Next.js
+
+```bash
+cd frontend
+npm run dev
+```
+
+### 2. Correr el servidor Fastapi (Uvicorn)
+
+```bash
+cd backend
+cd backend; cd myenv; ./Scripts/activate; cd ..; uvicorn main:app --reload
+```
