@@ -6,40 +6,41 @@ Este proyecto es una aplicación web del clima construida con **Next.js** para e
 
 ## 📸 Vista previa
 
- ![preview png](https://github.com/user-attachments/assets/4d3f62c8-2faa-407a-be24-3969688f3840)
+![preview png](https://github.com/user-attachments/assets/4d3f62c8-2faa-407a-be24-3969688f3840)
 
 ---
 
 ## 📦 Tecnologías usadas
 
 ### Frontend (Next.js)
-- React (con Hooks y `useEffect`)
-- Tailwind CSS (para estilos responsivos)
+- Next.js (React)
+- Tailwind CSS (estilos responsivos y utilitarios)
 - Axios (para llamadas HTTP)
-- Lucide-react (íconos del clima)
-- Animaciones suaves con transiciones de clase
+- Lucide-react (íconos SVG)
+- Animaciones con clases `transition`, `ease`, `duration`
 
 ### Backend (FastAPI)
-- FastAPI (para endpoints REST)
-- CORS Middleware
+- FastAPI (endpoints RESTful)
+- CORS Middleware (para permitir peticiones desde frontend)
 - Pydantic (validación de datos)
-- Requests / HTTPx (para consumir API externa de clima)
+- Requests o HTTPx (para consumir API externa de clima)
 
 ---
 
 ## 🚀 Cómo ejecutar el proyecto localmente
 
-### 1. Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 
 ```bash
-https://github.com/Meitos24/Weather-App.git
-cd weather-app
+git clone https://github.com/Meitos24/Weather-App.git
+cd Weather-App
 ```
 
-### 2. Correr el servidor Next.js
+### 2. Ejecutar el servidor Next.js (frontend)
 
 ```bash
 cd frontend
+npm install
 npm run dev
 ```
 
