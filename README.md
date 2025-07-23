@@ -6,7 +6,7 @@ Este proyecto es una aplicación web del clima construida con **Next.js** para e
 
 ## 📸 Vista previa
 
-![Vista previa de la app](./preview.png) <!-- Opcional: reemplaza con tu screenshot -->
+ ![preview png](https://github.com/user-attachments/assets/4d3f62c8-2faa-407a-be24-3969688f3840)
 
 ---
 
@@ -22,8 +22,7 @@ Este proyecto es una aplicación web del clima construida con **Next.js** para e
 ### Backend (FastAPI)
 - FastAPI (para endpoints REST)
 - CORS Middleware
-- Pydantic (validación ![preview png](https://github.com/user-attachments/assets/4d3f62c8-2faa-407a-be24-3969688f3840)
-de datos)
+- Pydantic (validación de datos)
 - Requests / HTTPx (para consumir API externa de clima)
 
 ---
