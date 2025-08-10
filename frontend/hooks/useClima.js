@@ -32,7 +32,7 @@ export function useClima() {
             alert('Por favor, ingrese una ciudad');
         } else if (e.key === 'Enter') {
             try {
-                const response = await axios.get('http://127.0.0.1:8000/weather', {
+                const response = await axios.get('/api/weather', {
                     params: { location: searchCity }
                 });
                 const tempCelsius = fahrenheitACelsius(response.data.days[0].temp);
